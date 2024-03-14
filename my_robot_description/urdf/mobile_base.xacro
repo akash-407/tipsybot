@@ -22,7 +22,7 @@
             </geometry>
             <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
         </collision>
-        <xacro:box_inertia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}"
+        <xacro:box_inertia m="5.0" w="${base_length}" h="${base_width}" l="${base_height}"
                            xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
 
